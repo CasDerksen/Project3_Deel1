@@ -2,3 +2,4 @@ datasets iecon/
 .venv/
 locatie_data/
 venv/
+prepared_data/

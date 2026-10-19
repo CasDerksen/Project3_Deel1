@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+GRU,gru_generation_huis_weer,huis,generation,5 min,2026-05-13 t/m 2026-09-10,327.2,480.0,316.2,332.3,333.2,341.9,483.5,306.7,0.3,0.385
+Persistence dag,gru_generation_huis_weer,huis,generation,5 min,2026-05-13 t/m 2026-09-10,263.9,509.1,257.9,260.4,273.3,264.2,487.5,,,
+Persistence week,gru_generation_huis_weer,huis,generation,5 min,2026-05-13 t/m 2026-09-10,320.2,584.6,321.1,320.4,319.0,320.2,571.6,,,

@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+Zelfde tijd gisteren,15_Persistence_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,263.9,509.1,257.9,260.4,273.3,264.2,487.5,0.0,0.0102,0.0024
+Persistence dag,15_Persistence_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,263.9,509.1,257.9,260.4,273.3,264.2,487.5,,,
+Persistence week,15_Persistence_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,320.2,584.6,321.1,320.4,319.0,320.2,571.6,,,

@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+LSTM,lstm_generation_huis_weer,huis,generation,5 min,2026-05-12 t/m 2026-09-10,319.1,447.8,307.2,320.2,330.0,317.8,443.6,298.5,1.0,0.434
+Persistence dag,lstm_generation_huis_weer,huis,generation,5 min,2026-05-12 t/m 2026-09-10,264.7,510.3,258.2,261.5,274.4,264.7,488.5,,,
+Persistence week,lstm_generation_huis_weer,huis,generation,5 min,2026-05-12 t/m 2026-09-10,320.6,585.0,321.0,320.7,319.9,320.5,572.0,,,

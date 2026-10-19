@@ -1,5 +1,5 @@
-,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
-SARIMA,10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,194.1,347.4,197.3,195.3,189.8,188.7,329.1,9.0,15.8
-SARIMAX,10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,137.2,239.6,138.1,138.0,135.6,134.1,230.1,28.3,15.8
-Seasonal naive (24u),10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,248.6,470.2,239.0,247.8,259.0,256.0,475.3,,
-Laatste waarde,10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,744.5,1056.2,737.8,745.9,749.8,1110.1,1226.0,,
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+SARIMA,10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,194.1,347.4,197.3,195.3,189.8,188.7,329.1,8.9,16.2,180.091
+SARIMAX,10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,137.2,239.6,138.1,138.0,135.6,134.1,230.1,29.0,16.2,180.255
+Seasonal naive (24u),10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,248.6,470.2,239.0,247.8,259.0,256.0,475.3,,,
+Laatste waarde,10a_Huis_Generation_SARIMAX,huis,generation,1 uur,2026-03-18 t/m 2026-04-13,744.5,1056.2,737.8,745.9,749.8,1110.1,1226.0,,,

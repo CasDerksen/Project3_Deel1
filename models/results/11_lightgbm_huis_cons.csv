@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
+LightGBM,11_LightGBM_huis_cons,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,855.0,1127.4,858.6,856.0,850.4,856.7,1110.5,5.0,1.2
+Persistence dag,11_LightGBM_huis_cons,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,266.2,514.0,259.3,262.5,276.7,266.8,494.0,,
+Persistence week,11_LightGBM_huis_cons,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,323.7,591.5,324.6,324.0,322.7,323.9,580.1,,

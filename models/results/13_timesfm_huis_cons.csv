@@ -1,5 +1,5 @@
-,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
-TimesFM 7d,235.1,432.5,217.0,237.7,250.6,234.8,410.2,0.0,1309.3
-TimesFM 28d,232.1,433.4,212.7,235.3,248.1,229.2,404.0,0.0,1274.0
-Persistence dag,266.2,514.0,259.3,262.5,276.7,266.8,494.0,,
-Persistence week,323.7,591.5,324.6,324.0,322.7,323.9,580.1,,
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
+TimesFM 7d,13_TimesFM_huis_cons,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,235.1,432.5,217.0,237.7,250.6,234.8,410.2,0.0,1309.3
+TimesFM 28d,13_TimesFM_huis_cons,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,232.1,433.4,212.7,235.3,248.1,229.2,404.0,0.0,1274.0
+Persistence dag,13_TimesFM_huis_cons,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,266.2,514.0,259.3,262.5,276.7,266.8,494.0,,
+Persistence week,13_TimesFM_huis_cons,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,323.7,591.5,324.6,324.0,322.7,323.9,580.1,,

@@ -1,0 +1,6 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
+"ARIMA(3, 0, 3)",Baseline_SARIMA_vMS,huis,consumption,1 uur,2024-12-17 t/m 2024-12-31,354.7,502.8,304.5,303.3,352.3,,,1.0,0.0
+SARIMA,Baseline_SARIMA_vMS,huis,consumption,1 uur,2024-12-17 t/m 2024-12-31,378.0,537.1,306.0,276.4,317.2,,,103.4,0.1
+Gemiddelde train,Baseline_SARIMA_vMS,huis,consumption,1 uur,2024-12-17 t/m 2024-12-31,413.5,553.9,317.7,382.4,359.0,,,,
+Laatste waarde,Baseline_SARIMA_vMS,huis,consumption,1 uur,2024-12-17 t/m 2024-12-31,400.2,649.3,265.9,345.3,282.7,,,,
+Seasonal naive (24u),Baseline_SARIMA_vMS,huis,consumption,1 uur,2024-12-17 t/m 2024-12-31,471.1,703.1,471.2,320.5,403.9,,,,

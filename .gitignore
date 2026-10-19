@@ -3,3 +3,5 @@ datasets iecon/
 locatie_data/
 venv/
 prepared_data/
+models/saved_models/
+models/PatchTST/lightning_logs/

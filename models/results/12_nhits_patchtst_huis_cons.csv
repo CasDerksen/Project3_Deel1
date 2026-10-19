@@ -1,0 +1,5 @@
+,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
+N-HiTS,384.0,601.5,385.3,382.4,384.3,414.4,650.1,190.5,1.5
+PatchTST,357.6,582.3,344.6,359.8,368.3,371.0,566.4,1225.6,2.3
+Persistence dag,266.2,514.0,259.3,262.5,276.7,266.8,494.0,,
+Persistence week,323.7,591.5,324.6,324.0,322.7,323.9,580.1,,

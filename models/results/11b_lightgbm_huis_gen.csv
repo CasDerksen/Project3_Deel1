@@ -1,4 +1,4 @@
-,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
-LightGBM,11b_LightGBM_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,164.0,286.9,164.4,163.5,164.0,164.0,273.9,10.1,1.9
-Persistence dag,11b_LightGBM_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,263.9,509.1,257.9,260.4,273.3,264.2,487.5,,
-Persistence week,11b_LightGBM_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,320.2,584.6,321.1,320.4,319.0,320.2,571.6,,
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+LightGBM,11b_LightGBM_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,164.0,286.9,164.4,163.5,164.0,164.0,273.9,9.6,1.9,2.336
+Persistence dag,11b_LightGBM_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,263.9,509.1,257.9,260.4,273.3,264.2,487.5,,,
+Persistence week,11b_LightGBM_huis_gen,huis,generation,5 min,2026-05-13 t/m 2026-09-10,320.2,584.6,321.1,320.4,319.0,320.2,571.6,,,

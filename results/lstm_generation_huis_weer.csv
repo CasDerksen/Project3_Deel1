@@ -1,0 +1,6 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
+lstm,lstm_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-12 t/m 2026-09-10,281.0,391.6,269.3,282.6,291.0,297.7,393.3,,
+Seasonal naive (24u),lstm_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-12 t/m 2026-09-10,216.7,417.5,210.6,213.7,225.8,217.1,392.5,,
+Laatste waarde,lstm_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-12 t/m 2026-09-10,779.0,1066.7,771.1,781.4,784.3,611.8,946.5,,
+Gemiddelde dag (7d),lstm_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-12 t/m 2026-09-10,203.8,369.9,194.5,204.4,212.4,204.4,354.5,,
+gru,lstm_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-12 t/m 2026-09-10,,,,,,,,78.6,0.6

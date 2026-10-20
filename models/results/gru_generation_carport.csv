@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+GRU,gru_generation_carport,carport,generation,5 min,2026-01-08 t/m 2026-09-02,2791.5,5979.9,2791.5,,,2845.4,5116.5,386.4,0.8,0.682
+Persistence dag,gru_generation_carport,carport,generation,5 min,2026-01-08 t/m 2026-09-02,2971.1,6775.5,2971.1,,,2975.7,5643.5,,,
+Persistence week,gru_generation_carport,carport,generation,5 min,2026-01-08 t/m 2026-09-02,4570.4,9785.5,4570.4,,,4570.6,7866.4,,,

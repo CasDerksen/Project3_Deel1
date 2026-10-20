@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+LSTM,lstm_generation_carport,carport,generation,5 min,2026-01-08 t/m 2026-09-02,3133.5,6285.2,2820.2,3171.5,3408.9,3093.9,5545.5,146.2,0.6,0.3
+Persistence dag,lstm_generation_carport,carport,generation,5 min,2026-01-08 t/m 2026-09-02,3301.2,7407.9,2931.0,3350.2,3622.5,3310.5,6450.5,,,
+Persistence week,lstm_generation_carport,carport,generation,5 min,2026-01-08 t/m 2026-09-02,4577.3,9801.6,4526.9,4593.0,4611.9,4589.4,8345.6,,,

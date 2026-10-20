@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+Zelfde tijd gisteren,15b_Persistence_carport_gen,carport,generation,5 min,2026-01-08 t/m 2026-09-02,3326.0,7443.0,2943.1,3376.6,3658.3,3327.2,6509.8,0.0,0.0101,0.0024
+Persistence dag,15b_Persistence_carport_gen,carport,generation,5 min,2026-01-08 t/m 2026-09-02,3326.0,7443.0,2943.1,3376.6,3658.3,3327.2,6509.8,,,
+Persistence week,15b_Persistence_carport_gen,carport,generation,5 min,2026-01-08 t/m 2026-09-02,4642.2,9859.8,4591.3,4658.7,4676.6,4638.6,8425.9,,,

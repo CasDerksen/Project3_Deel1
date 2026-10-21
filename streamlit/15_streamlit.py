@@ -9,6 +9,8 @@ Modellen per locatie (gekozen in 14_Vergelijking):
 - Carport generation  : LightGBM                (models/saved_models/11d_lightgbm_carport_gen.txt, 5 min)
 
 Starten vanuit de projectmap:  streamlit run streamlit/15_streamlit.py
+
+run het command python -m streamlit run streamlit/15_streamlit.py in de terminal om de applicatie te starten
 """
 from pathlib import Path
 

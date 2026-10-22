@@ -15,8 +15,6 @@ Benodigdheden
 
 Python 3.10.6
 
-Een virtual environment.
-
 De packages uit requirements.txt
 
 ## Deel 1
@@ -135,34 +133,3 @@ Je hebt nu alle databestanden om de modellen te kunnen runnen!!!!!!!!!!!!!!!
 
 
 7. Om alle gemaakte modellen met elkaar te vergelijken run je `models\Vergelijking\14_Vergelijking.ipynb`
-
-
-Tot hier ben ik gekomen 
-
-
-
-7. Gebruik alle 12 `2025-xx_rws_filedata.csv` datasets en run vervolgens notebook `06_File_EDA_Processing.ipynb`.
-
-8. Open en run `07_UitschietersAnalyse.ipynb` met verkregen `train_weather.parquet`, `val_weather.parquet` en `test_weather.parquet`.
-
-9. Gebruik `Wegentabel.csv` en run `08_Mergen_Files.ipynb` met verkregen `FileData.csv`, `train_clean.parquet`, `test_clean.prquet` en `val_clean.parquet`.
-
-10. Gebruik `Nederland.csv.zst` en run `09_Afstandchecker.ipynb` met verkregen `train_merged.parquet`.
-
-11. Gebruik `disruptions-2025.csv` en run `TreinStoringenEDA.ipynb`.
-
-12. Open en run `Trein_invloed.ipynb` met verkregen `FileData.csv` en `trajecten_overijssel.csv`.
-
-13. Open en run `01_DecisionTreeRegressor.ipynb` met verkregen `train_merged.parquet`, `test_merged.parquet` en `val_merged.parquet`.
-
-14. Open en run `02_RandomForestRegressor.ipynb` met verkregen `train_merged.parquet`, `test_merged.parquet` en `val_merged.parquet`.
-
-15. Open eindmodel! `03_XGBoost.ipynb` en gebruik vervolgens de verkregen `test_merged.parquet`, `train_merged.parquet` en `val_merged.parquet` om voorspellingen te doen.
-
-16. Voor de evaluatie in notebook `04_Evaluatie.ipynb`, gebruik verkregen `xgb_eindresultaten.csv`, `xgb_evaluatie_test.parquet` en `xgb_feature_importance.csv`.
-
-Bronnenlijst
-Filedata - https://downloads.rijkswaterstaatdata.nl/filedata/
-Treindata - https://www.rijdendetreinen.nl/open-data/treinstoringen
-Wijkdata - https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data/wijk-en-buurtkaart-2025
-Weerdata - https://www.daggegevens.knmi.nl/klimatologie/uurgegevens

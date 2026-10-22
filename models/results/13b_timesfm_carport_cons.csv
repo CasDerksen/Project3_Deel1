@@ -1,0 +1,5 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+TimesFM 7d,13b_TimesFM_carport_cons,carport,consumption,5 min,2026-01-07 t/m 2026-09-02,1615.3,3434.6,1594.3,1633.1,1618.4,1569.2,3275.8,0.0,303.9,925.182
+TimesFM 28d,13b_TimesFM_carport_cons,carport,consumption,5 min,2026-01-07 t/m 2026-09-02,1562.9,3447.1,1532.6,1585.4,1570.7,1544.0,3282.7,0.0,171.0,925.182
+Persistence dag,13b_TimesFM_carport_cons,carport,consumption,5 min,2026-01-07 t/m 2026-09-02,2404.9,4378.0,2370.9,2382.4,2461.4,2410.2,4217.7,,,
+Persistence week,13b_TimesFM_carport_cons,carport,consumption,5 min,2026-01-07 t/m 2026-09-02,2345.3,4267.6,2347.9,2351.1,2336.9,2348.1,4188.7,,,

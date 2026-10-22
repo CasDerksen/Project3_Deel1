@@ -1,0 +1,4 @@
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+LightGBM,11c_LightGBM_carport_cons,carport,consumption,5 min,2026-01-07 t/m 2026-09-02,1583.5,3448.4,1589.4,1586.5,1574.5,1587.8,3303.6,5.7,1.4,0.034
+Persistence dag,11c_LightGBM_carport_cons,carport,consumption,5 min,2026-01-07 t/m 2026-09-02,2404.9,4378.0,2370.9,2382.4,2461.4,2410.2,4217.7,,,
+Persistence week,11c_LightGBM_carport_cons,carport,consumption,5 min,2026-01-07 t/m 2026-09-02,2345.3,4267.6,2347.9,2351.1,2336.9,2348.1,4188.7,,,

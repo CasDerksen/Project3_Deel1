@@ -1,5 +1,0 @@
-,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
-gru,gru_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-13 t/m 2026-09-10,246.3,345.6,235.4,250.7,252.9,249.5,344.9,78.0,0.7
-Seasonal naive (24u),gru_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-13 t/m 2026-09-10,216.0,416.4,210.7,212.8,224.6,217.8,392.9,,
-Laatste waarde,gru_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-13 t/m 2026-09-10,778.7,1066.5,772.0,781.0,783.0,611.7,945.5,,
-Gemiddelde dag (7d),gru_generation_huis_weer,huis,generation,"5 min, beoordeeld per uur",2026-05-13 t/m 2026-09-10,203.0,368.6,195.0,203.4,210.5,204.5,354.0,,

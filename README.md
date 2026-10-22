@@ -117,7 +117,7 @@ De packages uit requirements.txt
 |&nbsp;&nbsp;`13b_TimesFM_carport_cons.ipynb`        |TimesFM model op consumption van carport                               |
 |&nbsp;&nbsp; Vergelijking                           |                                                                       |
 |&nbsp;&nbsp;`14_Vergelijking_huis.ipynb`            |Vergelijking van alle genoemde modellen voor huis                      |
-|&nbsp;&nbsp;`14_Vergelijking.ipynb`                 |Vergelijking van alle genoemde modellen voor carport                   |
+|&nbsp;&nbsp;`14b_Vergelijking.ipynb`                 |Vergelijking van alle genoemde modellen voor carport                   |
 |prepared_data                                       |                                                                       |
 |`data_preparation_overzicht.parquet`                |Overzicht van de data preparatie                                       |
 |`forecast_targets_long.parquet`                     |De geprepareerde data                                                  |

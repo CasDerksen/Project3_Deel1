@@ -46,7 +46,8 @@ De packages uit requirements.txt
 | `middenhuis479.parquet`                            |Data bestand met de data uit het middenhuis          |
 |Models                                              |                                                     |
 |&nbsp;&nbsp;baseline/                               |                                                     |
-|&nbsp;&nbsp;`15_Persistence.ipynb`      |Persistence (waarde van gisteren)                                |
+|&nbsp;&nbsp;`15_Persistence.ipynb`                  |Persistence huis (waarde van gisteren)               |
+|&nbsp;&nbsp;`15b_Persistence_carport.ipynb`         |Persistence  carport(waarde van gisteren)            |
 |&nbsp;&nbsp;`arima_grid.csv`            |De waarden van p,q,P,Q voor arima met bijbehorende AIC           |
 |&nbsp;&nbsp;`Base_Impute.ipynb`         |Het imputen van de eerste data voor de baseline                  |
 |&nbsp;&nbsp;`Baseline_SARIMA_vMS.ipynb` |De baseline Sarima( eerste baseline)                             |
@@ -55,6 +56,8 @@ De packages uit requirements.txt
 |&nbsp;&nbsp;LightGBM/                               |                                                     |
 |&nbsp;&nbsp;`11_LightGBM_huis_cons.ipynb`|LightGBM model voor de forecast van consumption huis            |
 |&nbsp;&nbsp;`11b_LightGBM_huis_gen.ipynb`|LightGBM model voor de forecast van generation huis             |
+|&nbsp;&nbsp;`11c_LightGBM_carport_cons.ipynb`       |De resulateten van de LightGBM op consumption van carport|
+|&nbsp;&nbsp;`11d_LightGBM_carport_gen.ipynb`        |De resulateten van de LightGBM op generation van carport|
 |&nbsp;&nbsp;lightning_logs/              |Worden automatisch gegenereerd bij het runnen van het Patch model|
 |&nbsp;&nbsp;`version_0`                              |                                                    | 
 |&nbsp;&nbsp;`version_1`                              |                                                    |
@@ -77,7 +80,8 @@ De packages uit requirements.txt
 |&nbsp;&nbsp;`lstm_generation_huis_weer.ipynb`|LSTM model voor de forecast generation met weer data voor carport|
 |&nbsp;&nbsp;`lstm_generation_huis.ipynb`|LSTM model voor de forecast generation voor carport                   |
 |&nbsp;&nbsp; PatchTST/                              |                                                          |
-|&nbsp;&nbsp;`12_NHITS_PatchTST_huis_cons.ipynb`                |N-HITS en Patch_TST model voor de forecast consumption van huis|
+|&nbsp;&nbsp;`12_NHITS_PatchTST_huis_cons.ipynb`     |N-HITS en Patch_TST model voor de forecast consumption van huis|
+|&nbsp;&nbsp;`12b_NHITS_PatchTST_carport_cons.ipynb` |N-HITS en Patch_TST model voor de forecast consumption van carport|
 |&nbsp;&nbsp; results/                               |                                                                       |
 |&nbsp;&nbsp;`10a_sarimax_huis_generation.csv`       |De resulateten van de sarimax op generation van huis                   |
 |&nbsp;&nbsp;`10b_sarimax_carport_generation.csv`    |De resulateten van de sarimax op generation van carport                |
@@ -85,10 +89,16 @@ De packages uit requirements.txt
 |&nbsp;&nbsp;`10d_sarimax_carport_consumption.csv`   |De resulateten van de sarimax op consumption van carport               |
 |&nbsp;&nbsp;`11_lightgbm_huis_cons.csv`             |De resulateten van de LightGBM op consumption van huis                 |
 |&nbsp;&nbsp;`11b_lightgbm_huis_gen.csv`             |De resulateten van de LightGBM op generation van huis                  |
+|&nbsp;&nbsp;`11c_lightgbm_carport_cons.csv`         |De resulateten van de LightGBM op consumption van carport              |
+|&nbsp;&nbsp;`11d_lightgbm_carport_gen.csv`          |De resulateten van de LightGBM op generation van carport               |
 |&nbsp;&nbsp;`12_nhits_patchtst_huis_cons.csv`       |De resulateten van de N_HITS_Patch model op consumption van huis       |
+|&nbsp;&nbsp;`12b_nhits_patchtst_carport_cons.csv`   |De resulateten van de N_HITS_Patch model op consumption van carport    |
 |&nbsp;&nbsp;`13_timesfm_huis_cons.csv`              |De resulateten van de times_fm model op consumption van huis           |
-|&nbsp;&nbsp;`15_persistence_huis_cons.csv`          |De resulateten van het persistence model, de waarden van een dag eerder|
-|&nbsp;&nbsp;`15_persistence_huis_gen.csv`           |De resulateten van het persistence model, de waarden van een dag eerder|
+|&nbsp;&nbsp;`13b_timesfm_carport_cons.csv`          |De resulateten van de times_fm model op consumption van carport        |
+|&nbsp;&nbsp;`15_persistence_huis_cons.csv`          |De resulateten van het persistence model, consumption huis             |
+|&nbsp;&nbsp;`15_persistence_huis_gen.csv`           |De resulateten van het persistence model, generation huis              |
+|&nbsp;&nbsp;`15b_persistence_carport_cons.csv`      |De resulateten van het persistence model, consumption carport          |
+|&nbsp;&nbsp;`15b_persistence_carport_gen.csv`       |De resulateten van het persistence model, generation carport           |
 |&nbsp;&nbsp;`baseline_huis_cons.csv`                |De resulateten van de baseline op consumption van huis                 |
 |&nbsp;&nbsp;`gru_consumption_huis_weer.csv`         |De resulateten van de GRU op consumption van huis met weer data        |
 |&nbsp;&nbsp;`gru_consumption_huis.csv`              |De resulateten van de GRU op consumption van huis                      |
@@ -104,8 +114,10 @@ De packages uit requirements.txt
 |&nbsp;&nbsp;`Train-Test-Val--Split.ipynb`           |train-test split voor de Sarimax modellen                              |
 |&nbsp;&nbsp; TimesFM                                |                                                                       |
 |&nbsp;&nbsp;`13_TimesFM_huis_cons.ipynb`            |TimesFM model op consumption van huis                                  |
+|&nbsp;&nbsp;`13b_TimesFM_carport_cons.ipynb`        |TimesFM model op consumption van carport                               |
 |&nbsp;&nbsp; Vergelijking                           |                                                                       |
-|&nbsp;&nbsp;`14_Vergelijking.ipynb`                 |Vergelijking van alle genoemde modellen                                |
+|&nbsp;&nbsp;`14_Vergelijking_huis.ipynb`            |Vergelijking van alle genoemde modellen voor huis                      |
+|&nbsp;&nbsp;`14_Vergelijking.ipynb`                 |Vergelijking van alle genoemde modellen voor carport                   |
 |prepared_data                                       |                                                                       |
 |`data_preparation_overzicht.parquet`                |Overzicht van de data preparatie                                       |
 |`forecast_targets_long.parquet`                     |De geprepareerde data                                                  |

@@ -105,7 +105,7 @@ De packages uit requirements.txt
 |&nbsp;&nbsp; TimesFM                                |                                                                       |
 |&nbsp;&nbsp;`13_TimesFM_huis_cons.ipynb`            |TimesFM model op consumption van huis                                  |
 |&nbsp;&nbsp; Vergelijking                           |                                                                       |
-|&nbsp;&nbsp;`14_Vergelijking.ipynb`                  Vergelijking van alle genoemde modellen                                |
+|&nbsp;&nbsp;`14_Vergelijking.ipynb`                 |Vergelijking van alle genoemde modellen                                |
 |prepared_data                                       |                                                                       |
 |`data_preparation_overzicht.parquet`                |Overzicht van de data preparatie                                       |
 |`forecast_targets_long.parquet`                     |De geprepareerde data                                                  |
@@ -128,8 +128,7 @@ De packages uit requirements.txt
 5. Open en run `exploration\06_Dataprep.ipynb` met de verkregen datasets uit stap 2. Om de Geprepareerd datasets te creeëren.
 
 6. Open en run `exploration\08_Weermerge.ipynb` met de verkregen dataset om de originele dataset en de weer data te mergen tot 1 bestand.
-Je hebt nu alle databestanden om de modellen te kunnen runnen!!!!!!!!!!!!!!!
 
+7. Je hebt nu alle databestanden om de modellen te kunnen runnen!!!!!!!!!!!!!!!
 
-
-7. Om alle gemaakte modellen met elkaar te vergelijken run je `models\Vergelijking\14_Vergelijking.ipynb`
+8. Om alle gemaakte modellen met elkaar te vergelijken run je `models\Vergelijking\14_Vergelijking.ipynb`

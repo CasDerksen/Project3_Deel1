@@ -1,5 +1,5 @@
-,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s)
-SARIMA,10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,3180.3,5696.1,3187.4,3190.4,3163.0,3076.4,5367.8,19.1,16.8
-SARIMAX,10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,2273.6,4036.6,2110.0,2299.5,2411.4,2214.2,3822.4,26.3,16.8
-Seasonal naive (24u),10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,3901.7,7373.8,3774.8,3889.3,4041.1,3884.2,7209.6,,
-Laatste waarde,10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,12394.4,17579.1,12272.6,12410.7,12500.0,18760.2,20822.4,,
+,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
+SARIMA,10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,3180.3,5696.1,3187.4,3190.4,3163.0,3076.4,5367.8,19.7,20.4,180.091
+SARIMAX,10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,2273.6,4036.6,2110.0,2299.5,2411.4,2214.2,3822.4,27.3,20.4,180.256
+Seasonal naive (24u),10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,3901.7,7373.8,3774.8,3889.3,4041.1,3884.2,7209.6,,,
+Laatste waarde,10b_Carport_Generation_SARIMAX,carport,generation,1 uur,2026-03-18 t/m 2026-04-13,12394.4,17579.1,12272.6,12410.7,12500.0,18760.2,20822.4,,,

@@ -1,5 +1,5 @@
 # Project 3: Energie Forecasting / Management SERENE project 
-# Odessa Al_Did, Cas Derksen, Rik Garrelts, Matthijn Thijert, Stijn Ydel
+# Odessa Al-Dib, Cas Derksen, Rik Garrelts, Matthijn Thijert, Stijn Ydel
 
 ## Git Repository
 https://github.com/OdessaA/Project3_Deel1

@@ -1,4 +1,5 @@
 from open_meteo.connectie_open_meteo import weer_data_ophalen, naar_5_minuten
+from open_meteo.tijd_features import tijd_features_aanmaken
 from pathlib import Path
 import pandas as pd
 
@@ -46,5 +47,15 @@ def laad_data():
     data["timestamp_nl"] = data["timestamp"].dt.tz_convert(
         "Europe/Amsterdam"
     )
+
+    return data
+
+def haal_modeldata_op():
+
+    # Energie en weer data ophalen en combineren
+    data = laad_data()
+
+    # Tijdfeatures toevoegen
+    data = tijd_features_aanmaken(data)
 
     return data

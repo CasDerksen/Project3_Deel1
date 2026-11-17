@@ -1,4 +1,4 @@
 ,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
-GRU (weer),gru_consumption_huis_weer,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,713.5,1059.2,713.8,715.4,711.2,715.7,1042.3,0.0,0.4,0.388
-Persistence dag,gru_consumption_huis_weer,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,266.2,514.0,259.3,262.5,276.7,266.8,494.0,,,
-Persistence week,gru_consumption_huis_weer,huis,consumption,5 min,2026-05-13 t/m 2026-09-10,323.7,591.5,324.6,324.0,322.7,323.9,580.1,,,
+GRU (weer),gru_consumption_huis_weer,huis,consumption,5 min,2026-03-18 t/m 2026-04-13,951.7,1219.8,929.6,959.3,966.3,952.8,1211.4,19.5,0.1,0.385
+Persistence dag,gru_consumption_huis_weer,huis,consumption,5 min,2026-03-18 t/m 2026-04-13,305.0,577.7,295.0,304.0,316.1,303.0,568.0,,,
+Persistence week,gru_consumption_huis_weer,huis,consumption,5 min,2026-03-18 t/m 2026-04-13,292.7,557.7,291.4,289.5,297.3,293.6,552.9,,,

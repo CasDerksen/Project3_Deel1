@@ -5,3 +5,10 @@ venv/
 prepared_data/
 models/saved_models/
 models/PatchTST/lightning_logs/
+
+#Parquet-bestanden (data en rolling uitkomsten)
+*.parquet
+
+#Python cache
+__pycache__/
+*.pyc

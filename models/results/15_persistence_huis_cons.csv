@@ -1,4 +1,4 @@
 ,notebook,locatie,target,resolutie,testperiode,MAE,RMSE,MAE dag 1,MAE dag 2,MAE dag 3,rolling MAE,rolling RMSE,trainingstijd (s),voorspeltijd (s),modelgrootte (MB)
-Zelfde tijd gisteren,15_Persistence_huis_cons,huis,consumption,5 min,"4 seizoensvensters, 2025-07-03 t/m 2026-04-06",525.7,841.7,534.0,520.0,523.2,517.0,818.7,0.0,0.0026,0.0024
+Zelfde tijd gisteren,15_Persistence_huis_cons,huis,consumption,5 min,"4 seizoensvensters, 2025-07-03 t/m 2026-04-06",525.7,841.7,534.0,520.0,523.2,517.0,818.7,0.0,0.0027,0.0024
 Persistence dag,15_Persistence_huis_cons,huis,consumption,5 min,"4 seizoensvensters, 2025-07-03 t/m 2026-04-06",525.7,841.7,534.0,520.0,523.2,517.0,818.7,,,
 Persistence week,15_Persistence_huis_cons,huis,consumption,5 min,"4 seizoensvensters, 2025-07-03 t/m 2026-04-06",515.1,837.1,511.9,514.8,518.7,508.6,818.0,,,
